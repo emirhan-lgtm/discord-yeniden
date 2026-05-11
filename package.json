@@ -1,0 +1,16 @@
+{
+  "name": "discord-bot-2026",
+  "version": "1.0.0",
+  "description": "Discord Botu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.0",
+    "dotenv": "^16.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
