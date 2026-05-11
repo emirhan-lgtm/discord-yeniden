@@ -1,18 +1,15 @@
-"scripts": {
-  "start": "node bot.js"
-}
 {
-  "name": "discord-bot",
+  "name": "node-app",
   "version": "1.0.0",
-  "description": "Discord Botu",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "node server.js",
+    "build": "echo Build completed",
+    "start": "node server.js"
   },
   "dependencies": {
-    "discord.js": "^14.14.1",
-    "dotenv": "^16.4.0"
-  },
-  "author": "",
-  "license": "ISC"
+    "express": "^4.21.1"
+  }
 }
